@@ -1,6 +1,11 @@
 import random
 import time
 
+# Best: O(n)
+# Wors: O(n²)
+# Stable:   ✅
+# Inplace:  ✅
+
 def InsertionSort(arr):
     for i in range(1, len(arr)):
         tmp = arr[i]

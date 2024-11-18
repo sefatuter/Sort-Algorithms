@@ -1,6 +1,12 @@
 import random
 import time
 
+# Best: O(nlogn)
+# Wors: O(nlogn)
+# Stable:   ⛔
+# Inplace:  ✅
+
+
 def heapify(arr, n, i):
     largest = i 
     

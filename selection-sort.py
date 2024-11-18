@@ -1,6 +1,12 @@
 import random
 import time
 
+# Best: O(n²)
+# Wors: O(n²)
+# Stable:   ⛔
+# Inplace:  ✅
+
+
 def SelectionSort(arr):
     n = len(arr)
     for i in range(n - 1):

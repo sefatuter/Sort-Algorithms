@@ -1,6 +1,10 @@
 import random
 import time
 
+# Best: O(nlogn)
+# Wors: O(nlogn)
+# Stable:   ✅
+# Inplace:  ⛔
 
 def merge(arr, left, mid, right):
     n1 = mid - left + 1
